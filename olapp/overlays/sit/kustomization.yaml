@@ -11,3 +11,6 @@ bases:
 resources:
   - sample-config.yaml
 
+patchesStrategicMerge:
+- openlibertyapplication-openliberty-samplewebapp.yaml
+

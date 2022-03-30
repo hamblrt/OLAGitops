@@ -1,0 +1,15 @@
+nameReference:
+- kind: ConfigMap
+  fieldSpecs:
+  - kind: OpenLibertyApplication
+    path: spec/envFrom/configMapRef/name
+
+varReference:
+- path: spec/applicationImage
+  kind: OpenLibertyApplication
+- path: spec/applicationName
+  kind: OpenLibertyApplication
+- path: spec/replicas
+  kind: OpenLibertyApplication
+
+

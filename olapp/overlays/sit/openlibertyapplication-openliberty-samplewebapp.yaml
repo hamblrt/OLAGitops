@@ -1,0 +1,8 @@
+apiVersion: apps.openliberty.io/v1beta2
+kind: OpenLibertyApplication
+metadata:
+  name: openliberty-samplewebapp
+spec:
+  applicationImage: image-registry.openshift-image-registry.svc:5000/demo/openliberty-samplewebapp
+  applicationName: openliberty-samplewebapp
+  replicas: 2
