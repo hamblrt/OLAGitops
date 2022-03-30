@@ -3,6 +3,6 @@ kind: OpenLibertyApplication
 metadata:
   name: openliberty-samplewebapp
 spec:
-  applicationImage: image-registry.openshift-image-registry.svc:5000/demo/openliberty-samplewebapp
+  applicationImage: quay.io/hamblrt/sample-web-app:1.1
   applicationName: openliberty-samplewebapp
   replicas: 1
