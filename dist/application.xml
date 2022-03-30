@@ -1,0 +1,12 @@
+<server description="Application specific configurations">
+
+    <!-- Enable features -->
+    <featureManager>
+      <feature>jsp-2.3</feature>
+    </featureManager>
+    
+    <!-- Application -->
+    
+    <application id="SampleWebApp" name="SampleWebApp" type="war" location="SampleWebApp.war/SampleWebApp.war" context-root="SampleWebApp" />
+
+</server>
